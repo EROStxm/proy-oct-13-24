@@ -1,0 +1,75 @@
+.Contenedor{
+    background-color: #ffffff;
+    
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-areas: 
+    "encabezado encabezado encabezado"
+    "menu menu menu"
+    "contenido1 contenido1 contenido1"
+    "contenido2 contenido2 contenido2"
+    "footer footer footer"
+    ;
+    
+}
+.encabezado{
+    grid-area: encabezado;
+    background-color: #ffffff;
+}
+.menu{
+    grid-area: menu;
+    background-color: #482e1d;
+    box-shadow: 0 0 11px #c9c0c0;
+}
+.contenido1{
+    grid-area: contenido1;
+    box-shadow: 0 0 25px #c9c0c0;
+    display: flex;
+    flex-direction: row;
+}
+.contenido1-1{
+    position: sticky;
+    left: 0px;
+    top: 0px;
+}
+.contenido1-2{
+    padding: 2%;
+}
+.contenido2{
+    grid-area: contenido2;
+    padding-top: 2%;
+    background-color: #ffffff;
+}
+.contenido4{
+    padding: 1% 10%;
+    background-color: #251105;
+}
+.footer{
+    grid-column: footer;
+    background: rgb(255, 255, 255);
+    padding: 1%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr 3fr;
+    grid-template-areas:
+    "creditos no si Legal";
+}
+.creditos{
+    display: flex;
+    grid-area: creditos;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #6c757d;
+    font-size: 1.3rem;
+}
+.Legal{
+    grid-area: Legal;
+    display: flex;
+    justify-content: center; 
+}
+.Legal ul li a{
+    color: #6c757d;
+}
+.Legal ul li a:hover{
+    color: #6c757d;
+}

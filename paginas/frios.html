@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Estilos/Estilos.css">
+    <link rel="stylesheet" href="../bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <script src="../bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+    <title>Index</title>
+</head>
+<body>
+    <div class="Contenedor">
+
+        <div class="encabezado">
+            <nav class="navbar navbar-light ">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="../index.html">
+                    <img src="../img/Diseño sin título.png" alt="" width="35" heig ht="35" class="d-inline-block align-text-top" style="border-radius: 50px;">
+                    Cafeteria Eros
+                  </a>
+                  <a class="navbar-brand" href="">
+                    Iniciar Sesion
+                    <img src="../img/account_circle_24dp_5F6368.svg" alt="" width="40" height="34" class="d-inline-block align-text-top">
+                  </a>
+                  
+                </div>
+              </nav>
+        </div>
+
+        <div class="menu">
+            <nav class="navbar navbar-expand-lg navbar-dark ">
+                <div class="container-fluid" >
+                  <a class="navbar-brand" href="../index.html" style="margin: 0px 15px;">  Eros </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavDropdown" >
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../index.html" style="margin: 0px 15px;">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="frios.html" style="margin: 0px 15px;">Frios</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="recetas.html" style="margin: 0px 15px;">Recetas</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="margin: 0px 15px;">
+                            Redes
+                          </a>
+                          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color: #f0daae;">
+                            <li><a class="dropdown-item" href="#">YouTube</a></li>
+                            <li><a class="dropdown-item" href="#">Facebook</a></li>
+                            <li><a class="dropdown-item" href="#">Twiter</a></li>
+                          </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </div>
+        
+        <div class="contenido1">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="../img/Cafe.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="../img/image(2).png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="1000">
+                    <img src="../img/image(3).png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+        <div class="contenido2">
+            <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true" style="color: black;">Café 1</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false" style="color: black;">Café 2</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false" style="color: black;">Café 3</button>
+                </li>
+              </ul>
+              <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <div class="contenido4">
+
+                        <div class="row row-cols-1 row-cols-md-3 g-4">
+                            <div class="col">
+                              <div class="card h-100">
+                                <img src="../img/Cafe-cold-brew.jpg" class="card-img-top" alt="Cafe-cold-brew">
+                                <div class="card-body">
+                                  <h5 class="card-title">Café Cold Brew</h5>
+                                  <p class="card-text">A diferencia del café tradicional, que se elabora con agua caliente, el cold brew utiliza agua fría o a temperatura ambiente, lo que resulta en una extracción más lenta que produce un café suave,
+                                     menos ácido y con notas naturalmente dulces. Una vez colado, se sirve frío, generalmente con hielo, y puede mezclarse con leche, agua o jarabes de sabores para ajustar su intensidad y sabor. Suave y refrescante, es una opción popular en los meses cálidos.</p>
+                                </div>
+                                <div class="card-footer">
+                                  <small class="text-muted">Precio: 15 Bs</small>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col">
+                              <div class="card h-100">
+                                <img src="../img/cafe-affogato.jpg" class="card-img-top" alt="cafe-affogato">
+                                <div class="card-body">
+                                  <h5 class="card-title">Café Affogato
+                                  </h5>
+                                  <p class="card-text">El café affogato es una deliciosa combinación de postre y café de origen italiano. Consiste en una bola de helado, tradicionalmente de vainilla o fior di latte, sobre la cual se vierte una dosis de espresso caliente.
+                                     El espresso "ahoga" el helado, creando una mezcla contrastante de texturas y temperaturas, donde el helado frío se derrite lentamente en el café caliente.</p>
+                                </div>
+                                <div class="card-footer">
+                                  <small class="text-muted">Precio: 15 Bs</small>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col">
+                              <div class="card h-100">
+                                <img src="../img/cafe-nitro.jpg" class="card-img-top" alt="cafe-nitro">
+                                <div class="card-body">
+                                  <h5 class="card-title">Café Nitro</h5>
+                                  <p class="card-text">El nitro café es una versión innovadora del cold brew que se infunde con nitrógeno, lo que le da una textura suave y cremosa. Se sirve directamente de un grifo,
+                                     similar al de una cerveza de barril, y su infusión de nitrógeno crea una capa espesa y espumosa en la parte superior
+                                     Esta bebida tiene un sabor suave, ligeramente dulce y menos ácido que otros tipos de café, lo que la hace muy popular como bebida refrescante y sofisticada, especialmente en climas cálidos.
+                                    </p>
+                                </div>
+                                <div class="card-footer">
+                                  <small class="text-muted">Precio: 15 Bs</small>
+                                </div>
+                              </div>
+                            </div>
+
+                          </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                    <div class="contenido4">
+
+                        <div class="row row-cols-1 row-cols-md-3 g-4">
+                            <div class="col">
+                                <div class="card h-100">
+                                  <img src="../img/cafe-bombon-casero.jpg" class="card-img-top" alt="cafe-bombon">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Café Bombón</h5>
+                                    <p class="card-text">El café bombón es una bebida de café típica de España que se caracteriza por su combinación de café espresso y leche condensada.
+                                        Es un café muy dulce, gracias a la leche condensada, lo que lo convierte en una opción popular para quienes disfrutan de una bebida más indulgente y postrera.
+                                    </p>
+                                  </div>
+                                  <div class="card-footer">
+                                    <small class="text-muted">Precio: 15 Bs</small>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col">
+                                <div class="card h-100">
+                                  <img src="../img/cafe-carajillo.jpg" class="card-img-top" alt="cafe-carajillo">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Café Carajillo</h5>
+                                    <p class="card-text">El carajillo es una bebida tradicional que combina café con licor, muy popular en España y América Latina.
+                                        El carajillo es conocido por su sabor fuerte y su capacidad para combinar el amargor del café con la calidez del alcohol, siendo una opción ideal como digestivo después de las comidas.
+                                    </p>
+                                  </div>
+                                  <div class="card-footer">
+                                    <small class="text-muted">Precio: 15 Bs</small>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col">
+                                <div class="card h-100">
+                                  <img src="../img/Cafe-lungo.webp" class="card-img-top" alt="...">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Café Lungo</h5>
+                                    <p class="card-text">El café lungo es una variante del espresso que se distingue por ser más largo y suave.
+                                        A diferencia del americano, donde se añade agua caliente después de hacer el espresso, el lungo tiene una extracción más lenta, lo que también le da notas más amargas. Es ideal para quienes disfrutan de un café más largo sin diluir demasiado su sabor.
+                                    </p>
+                                  </div>
+                                  <div class="card-footer">
+                                    <small class="text-muted">Precio: 15 Bs</small>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                    <div class="contenido4">
+
+                        <div class="row row-cols-1 row-cols-md-3 g-4">
+                            <div class="col">
+                              <div class="card h-100">
+                                <img src="../img/cafe-espresso.jpg" class="card-img-top" alt="cafe-espresso">
+                                <div class="card-body">
+                                  <h5 class="card-title">Café Espresso</h5>
+                                  <p class="card-text">El café espresso es una bebida concentrada que se elabora forzando agua caliente a alta presión a través de café finamente molido.
+                                    Se sirve en pequeñas porciones, generalmente entre 25 y 30 ml, y es apreciado por su intensidad y complejidad de sabores,
+                                     que pueden incluir notas de chocolate, frutas, nueces o especias, dependiendo del tipo de grano utilizado.
+                                  </p>
+                                </div>
+                                <div class="card-footer">
+                                  <small class="text-muted">Precio: 15 Bs</small>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col">
+                              <div class="card h-100">
+                                <img src="../img/cafe-americano.jpg" class="card-img-top" alt="cafe-americano">
+                                <div class="card-body">
+                                  <h5 class="card-title">Café Americano
+                                  </h5>
+                                  <p class="card-text">El café americano es una bebida que se prepara agregando agua caliente a una dosis de espresso,
+                                     diluyendo su intensidad y creando un café más suave y de mayor volumen.
+                                     Es una opción popular para quienes disfrutan de un café largo pero no tan fuerte como un espresso.</p>
+                                </div>
+                                <div class="card-footer">
+                                  <small class="text-muted">Precio: 15 Bs</small>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col">
+                              <div class="card h-100">
+                                <img src="../img/cafe-capuccino.jpg" class="card-img-top" alt="cafe-capuccino">
+                                <div class="card-body">
+                                  <h5 class="card-title">Café Latte</h5>
+                                  <p class="card-text">El cappuccino es una clásica bebida italiana a base de café que se caracteriza 
+                                    por su equilibrio entre espresso, leche al vapor y espuma de leche.A menudo se decora con cacao en polvo o canela espolvoreada. 
+                                    Comparado con el latte, el cappuccino tiene menos leche, por lo que el sabor del café es más pronunciado.
+                                </p>
+                                </div>
+                                <div class="card-footer">
+                                  <small class="text-muted">Precio: 15 Bs</small>
+                                </div>
+                              </div>
+                            </div>
+
+                          </div>
+                    </div>
+                </div>
+
+              </div>
+              
+        </div>
+        
+        <div class="footer">
+            <div class="creditos">
+                @2024. Todos los derechos Reservados.
+            </div>
+            <div class="Legal container-fluid">
+                        <ul class="nav">
+                          <li class="nav-item">
+                            <a class="nav-link" href="#" >Politica de Privacidad</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Politica de Cookies</a>
+                          </li>
+                          <li class="nav-item"> 
+                            <a class="nav-link" href="#">Aviso Legal</a>
+                          </li>
+                        </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
